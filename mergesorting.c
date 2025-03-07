@@ -9,7 +9,7 @@ void merge(int ar[],int st,int en)
 	merge(ar,mid+1,en);
 	meg(ar,st,mid,en);
 }
-int meg(int ar[],int st,int mid,int en)
+ meg(int ar[],int st,int mid,int en)
 {
 	int i=st,j=mid+1;
 	int a[en-st+1];
